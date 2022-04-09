@@ -19,4 +19,5 @@ class Person
 
   def age
     return ((Date.parse(birthdate) - Date.today)/365).to_i
+  end
 end
